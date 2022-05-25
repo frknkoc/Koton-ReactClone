@@ -6,6 +6,7 @@ import "swiper/css/scrollbar";
 import "./styles.css";
 
 import { Scrollbar } from "swiper";
+import Stories from "./Stories.json";
 
 
 function Story() {
@@ -22,89 +23,20 @@ function Story() {
                     modules={[Scrollbar]}
                     className="myStorySwiper"
                 >
-                    <SwiperSlide className='mb-4'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/mayis/story/cizgili-tshirtler.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>ÇİZGİLİ TİŞÖRTLER</div>
-                        </div>
-                    </SwiperSlide>
 
-                    <SwiperSlide className='mb-4'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/mayis/story/Mustafa-Kemal-Ataturk.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>ATATÜRK KOLEKSİYONU</div>
-                        </div>
-                    </SwiperSlide>
+                    {
+                        Stories.map(story => {
+                            return (
 
-                    <SwiperSlide className='mb-4'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/nisan/story/renklijeans.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>RENKLİ JEANS</div>
-                        </div>
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className='mb-4'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/nisan/story/cocukelbise.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>49.99TL'DEN BAŞLAYAN</div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide className='mb-4'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/nisan/story/erkektshirtstory.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>MAKSİMUM 59.99TL</div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide className='mb-4'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/mart/story/aksesuar-story.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>AKSESUAR</div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide className='mb-4'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/mart/story/trend-renkler.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>TREND RENKLER</div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide className='mb-4'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/nisan/story/cocuktisort.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>29.99TL'DEN BAŞLAYAN</div>
-                        </div>
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className='mb-4'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/mart/story/t-shirt.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>MAKSİMUM 69.99TL</div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide className='mb-4'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/nisan/story/cocukelbise.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>49.99TL'DEN BAŞLAYAN</div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide className='mb-4'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/mart/story/aksesuar-story.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>AKSESUAR</div>
-                        </div>
-                    </SwiperSlide>
-
-
-
-
-
+                                <SwiperSlide className='mb-4'>
+                                    <div className='story'>
+                                        <img src={story.url} className='w-100 story' alt=''></img>
+                                        <div className='storytext'>{story.text}</div>
+                                    </div>
+                                </SwiperSlide>
+                            )
+                        })
+                    }
 
                 </Swiper>
 
@@ -120,70 +52,19 @@ function Story() {
                     modules={[Scrollbar]}
                     className="myStorySwiper"
                 >
-                    <SwiperSlide className='mb-3'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/mayis/story/cizgili-tshirtler.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>ÇİZGİLİ TİŞÖRTLER</div>
-                        </div>
-                    </SwiperSlide>
+                    {
+                        Stories.map(story => {
+                            return (
 
-                    <SwiperSlide className='mb-3'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/mayis/story/Mustafa-Kemal-Ataturk.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>ATATÜRK KOLEKSİYONU</div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide className='mb-3'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/nisan/story/renklijeans.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>RENKLİ JEANS</div>
-                        </div>
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className='mb-3'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/nisan/story/cocukelbise.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>49.99TL'DEN BAŞLAYAN</div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide className='mb-3'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/nisan/story/erkektshirtstory.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>MAKSİMUM 59.99TL</div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide className='mb-3'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/mart/story/aksesuar-story.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>AKSESUAR</div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide className='mb-3'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/mart/story/trend-renkler.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>TREND RENKLER</div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide className='mb-3'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/nisan/story/cocuktisort.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>29.99TL'DEN BAŞLAYAN</div>
-                        </div>
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className='mb-3'>
-                        <div className='story'>
-                            <img src='https://img-kotontr.mncdn.com/images/2022/mart/story/t-shirt.jpeg' className='w-100 story' alt=''></img>
-                            <div className='storytext'>MAKSİMUM 69.99TL</div>
-                        </div>
-                    </SwiperSlide>
+                                <SwiperSlide className='mb-4'>
+                                    <div className='story'>
+                                        <img src={story.url} className='w-100 story' alt=''></img>
+                                        <div className='storytext'>{story.text}</div>
+                                    </div>
+                                </SwiperSlide>
+                            )
+                        })
+                    }
 
                 </Swiper>
 
