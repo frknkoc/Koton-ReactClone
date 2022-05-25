@@ -10,7 +10,7 @@ import { Scrollbar } from "swiper";
 
 function Story() {
     return (
-        <div className='container mt-5 mb-5 '>
+        <div className='container mt-5 mb-5'>
             <div className='row d-none d-lg-block'>
             <Swiper
                 slidesPerView={9}
@@ -87,6 +87,23 @@ function Story() {
                     </div>
                 </SwiperSlide>
 
+                <SwiperSlide className='mb-4'>
+                    <div className='story'>
+                    <img src='https://img-kotontr.mncdn.com/images/2022/nisan/story/cocukelbise.jpeg' className='w-100 story' alt=''></img>
+                    <div className='storytext'>49.99TL'DEN BAŞLAYAN</div>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide className='mb-4'>
+                    <div className='story'>
+                    <img src='https://img-kotontr.mncdn.com/images/2022/mart/story/aksesuar-story.jpeg' className='w-100 story' alt=''></img>
+                    <div className='storytext'>AKSESUAR</div>
+                    </div>
+                </SwiperSlide>
+
+
+
+
 
 
             </Swiper>
@@ -97,7 +114,6 @@ function Story() {
             <Swiper
                 slidesPerView={4}
                 spaceBetween={16}
-                loop={true}
                 scrollbar={{
                     hide: true,
                 }}
