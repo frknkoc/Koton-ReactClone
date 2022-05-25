@@ -3,7 +3,7 @@ import "./styles.css";
 
 function HitCategory() {
     return (
-        <div className="container-fluid px-md-5 mb-5" style={{marginTop: "120px"}}>
+        <div className="container-fluid px-md-5 mb-5 hitcategory">
             <div class="text-center fs-1 mb-3 mt-5 ">SEZONUN ÖNE ÇIKAN <b>HİT</b> KATEGORİLERİ</div>
             <hr />
 

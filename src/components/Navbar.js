@@ -3,7 +3,7 @@ import "./styles.css";
 
 function Navbar() {
   return (
-        <div className="container-fluid border-bottom shadow">
+    <div className="container-fluid border-bottom shadow">
       <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between px-md-5 py-md-3 mt-1 mb-2">
         <a href="/" class="d-flex align-items-center fs-1 col-md-3 mb-1 mb-md-0 text-dark text-decoration-none">
           KOTON

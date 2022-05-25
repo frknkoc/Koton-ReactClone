@@ -12,33 +12,33 @@ import { Pagination, Navigation } from "swiper";
 
 function Slider() {
   return (
-        <Swiper
-        slidesPerView={1}
-        spaceBetween={30}
-        loop={true}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
-        className="mySwiper mt-5 mb-5"
-      >
-        <SwiperSlide>
-            <img className='w-100' src='https://img-kotonw.mncdn.com/static/images/11199821742110/melisagazat-slider-new.jpeg' alt=''></img>
-        </SwiperSlide>
+    <Swiper
+      slidesPerView={1}
+      spaceBetween={30}
+      loop={true}
+      pagination={{
+        clickable: true,
+      }}
+      navigation={true}
+      modules={[Pagination, Navigation]}
+      className="mySwiper mb-5"
+    >
+      <SwiperSlide>
+        <img className='w-100' src='https://img-kotonw.mncdn.com/static/images/11199821742110/melisagazat-slider-new.jpeg' alt=''></img>
+      </SwiperSlide>
 
-        <SwiperSlide>
-            <img className='w-100' src='https://img-kotonw.mncdn.com/static/images/11199766954014/ebrusalli-slider.jpeg' alt=''/>
-        </SwiperSlide>
+      <SwiperSlide>
+        <img className='w-100' src='https://img-kotonw.mncdn.com/static/images/11199766954014/ebrusalli-slider.jpeg' alt='' />
+      </SwiperSlide>
 
-        <SwiperSlide>
-            <img className='w-100' src='https://img-kotonw.mncdn.com/static/images/11198698586142/75tlidirim300kargo-slider.jpeg' alt=''/>
-        </SwiperSlide>
-
-
+      <SwiperSlide>
+        <img className='w-100' src='https://img-kotonw.mncdn.com/static/images/11198698586142/75tlidirim300kargo-slider.jpeg' alt='' />
+      </SwiperSlide>
 
 
-      </Swiper>
+
+
+    </Swiper>
   )
 }
 

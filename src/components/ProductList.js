@@ -3,7 +3,7 @@ import "./styles.css";
 
 function ProductList() {
     return (
-        <div className="container-fluid px-md-5"  style={{marginTop: "120px", marginBottom: "120px"}}>
+        <div className="container-fluid px-md-5 productlist">
 
             <div className="row mt-4 mb-5">
                 <div className="col-md">
