@@ -9,9 +9,6 @@ import "./styles.css";
 
 import { Pagination, Navigation } from "swiper";
 
-import "./styles.css";
-
-
 
 function Slider() {
   return (

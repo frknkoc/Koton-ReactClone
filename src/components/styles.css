@@ -53,3 +53,27 @@ body {
   text-decoration-color: rgb(44, 44, 44);
   cursor: pointer;
 }
+
+
+.story{
+  display: block;
+  border-radius: 50%;
+}
+
+.storytext{
+  font-size: 14px;
+  font-weight:500;
+}
+
+@media screen and (max-width:720px) {
+
+
+
+  .storytext{
+    font-size: 12px;
+    font-weight:500;
+    }
+  
+  
+  
+  }

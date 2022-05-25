@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from "./components/Navbar";
+import Story from './components/Story';
 import Footer from "./components/Footer";
 import Slider from "./components/Slider";
 import Products from "./components/Products";
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Story />
 
       <Slider />
 
