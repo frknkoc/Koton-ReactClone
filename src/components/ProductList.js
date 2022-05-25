@@ -1,6 +1,6 @@
 import React from 'react'
 import "./styles.css";
-import ProductList1 from "./ProductList.json";
+import ProductList1 from "../data/ProductList.json";
 
 function ProductList() {
     return (

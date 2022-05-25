@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "./styles.css";
 
 import { Pagination, Navigation } from "swiper";
-import Sliders from "./Sliders.json";
+import Sliders from "../data/Sliders.json";
 
 
 function Slider() {

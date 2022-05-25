@@ -6,7 +6,7 @@ import "swiper/css/scrollbar";
 import "./styles.css";
 
 import { Scrollbar } from "swiper";
-import Stories from "./Stories.json";
+import Stories from "../data/Stories.json";
 
 
 function Story() {

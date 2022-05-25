@@ -1,6 +1,6 @@
 import React from 'react'
 import "./styles.css";
-import HitCategories from "./HitCategories.json";
+import HitCategories from "../data/HitCategories.json";
 
 function HitCategory() {
     return (
