@@ -4,7 +4,7 @@
         "url": "https://img-kotontr.mncdn.com/images/2022/nisan/kadin-3.jpeg",
         "male": "KADIN",
         "title": "BU YAZIN RENGİ SENSİN",
-        "linktitle": "KEŞFET"
+        "link": "KEŞFET"
     },
 
     {
@@ -12,7 +12,7 @@
         "url": "https://img-kotontr.mncdn.com/images/2022/nisan/swim-3.jpeg",
         "male": "KADIN",
         "title": "PLAJ GİYİM",
-        "linktitle": "KEŞFET"
+        "link": "KEŞFET"
     },
 
     {
@@ -20,6 +20,6 @@
         "url": "https://img-kotontr.mncdn.com/images/2022/nisan/erkek-3.jpeg",
         "male": "ERKEK",
         "title": "OVERSİZE KOLEKSİYONU",
-        "linktitle": "KEŞFET"
+        "link": "KEŞFET"
     }
 ]

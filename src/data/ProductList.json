@@ -4,7 +4,7 @@
         "url": "https://img-kotontr.mncdn.com/images/2022/nisan/kadin-web3.jpeg",
         "male": "KADIN",
         "title": "ÇİÇEKLİ ÜRÜNLER",
-        "linktitle": "KEŞFET"
+        "link": "KEŞFET"
     },
 
     {
@@ -12,7 +12,7 @@
         "url": "https://img-kotontr.mncdn.com/images/2022/nisan/cocuk-web3.jpeg",
         "male": "ÇOCUK & BEBEK",
         "title": "TAKIMLI ÜRÜNLER",
-        "linktitle": "KEŞFET"
+        "link": "KEŞFET"
     },
 
     {
@@ -20,6 +20,6 @@
         "url": "https://img-kotontr.mncdn.com/images/2022/nisan/jeans-web3.jpeg",
         "male": "KADIN",
         "title": "BEYAZ JEAN",
-        "linktitle": "KEŞFET"
+        "link": "KEŞFET"
     }
 ]
