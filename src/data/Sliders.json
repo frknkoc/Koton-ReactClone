@@ -1,16 +1,22 @@
 [
     {
         "id": 1,
-        "url": "https://img-kotonw.mncdn.com/static/images/11199821742110/melisagazat-slider-new.jpeg"
+        "url": "https://dfcdn.defacto.com.tr/Mobile/1png_1e89ced6-90fe-46ab-8299-d1da2bbe8cd6_e5574d88-6d90-4835-b21c-284c2565119c_DI_429.jpg"
     },
 
     {
         "id": 2,
-        "url": "https://img-kotonw.mncdn.com/static/images/11199766954014/ebrusalli-slider.jpeg"
+        "url": "https://dfcdn.defacto.com.tr/Mobile/4png_27926f04-828a-43bb-9e6d-10e2c008fb52_84e6ab5a-e8b7-4048-bcde-e221fe7b5b09_DI_429.jpg"
     },
-
+    
     {
         "id": 3,
-        "url": "https://img-kotonw.mncdn.com/static/images/11198698586142/75tlidirim300kargo-slider.jpeg"
+        "url": "https://dfcdn.defacto.com.tr/Mobile/4png_3467fa8d-dc91-4da3-ac4b-45ec5641f624_d0d8d324-dd01-49d7-ab05-e9ba34bda7b6_DI_429.jpg"
+    },
+
+
+    {
+        "id": 4,
+        "url": "https://dfcdn.defacto.com.tr/Mobile/3png_aaabcf80-e8a2-4fd9-89c0-b6cfa26962a4_eddc715a-cf03-4a9e-be3e-a785e0846528_DI_429.jpg"
     }
 ]
